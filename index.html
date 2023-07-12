@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            color: chocolate;
+        }
+        /* hover means mouse over*/
+        h3:hover{
+            color: black;
+            background-color: chartreuse;
+        }
+        input:focus{
+            color: blue;
+            /*padding-left: 20px;*/
+            outline: 0;
+            border: 1px solid purple;
+        }
+        a:visited{
+            color: brown;
+        }
+        /*li:first-child{
+            color: chartreuse;
+        }*/
+        li:first-child{
+            background-color: burlywood;
+        }
+        /*odd number will be color(2n+1) and even number (2n)*/
+        li:nth-child(2n+1){
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h3>My heading</h3>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <a href="https://www.facebook.com/">Facebook</a>
+    <a href="https://www.bloomaker.com/blog/55-inspirational-flower-quotes">Flower Assignment</a>
+
+    <ul>
+        <li>Akash Bhai</li>
+        <li>Nowshad Bhai</li>
+        <li>Mynul Bhai</li>
+        <li>Maruf Bhai</li>
+        <li>Rubel Bhai</li>
+        <li>Tanzida</li>
+    </ul>
+</body>
+</html>
